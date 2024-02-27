@@ -82,6 +82,7 @@ In this example, we will create a Behavior that accepts a pose and offsets its p
   ```cpp
   #include <geometry_msgs/msg/pose_stamped.hpp>
   #include <tf2_eigen/tf2_eigen.hpp>
+  #include <moveit_studio_behavior_interface/check_for_error.hpp>
   ```
   - Then, go to the `config/tree_nodes_model.xml` file and fill out the information to render the Behavior in the web app.
   This includes descriptions of the Behavior and its ports, as well as default port values.
