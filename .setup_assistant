@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: jaxa_config
+    relative_path: description/jaxa.urdf
+  srdf:
+    relative_path: config/ivr.srdf
+  package_settings:
+    author_name: Mike
+    author_email: helloe@picknik.ai
+    generated_timestamp: 1708669838
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
