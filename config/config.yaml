@@ -111,7 +111,7 @@ optional_feature_params:
 # [Required]
 moveit_params:
   # Used by the Waypoint Manager to save joint states from this joint group.
-  joint_group_name: "ARM_1"
+  joint_group_name: "ARM_2"
 
   ompl_planning:
     package: "jaxa_config"

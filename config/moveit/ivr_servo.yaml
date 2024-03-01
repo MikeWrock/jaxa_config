@@ -37,7 +37,7 @@ acceleration_filter_update_period: 0.01 # [seconds] Must match the publish_perio
 
 ## MoveIt properties
 move_group_name: ARM_1  # Often 'manipulator' or 'arm'
-acceleration_filter_planning_group_name: ARM_1  # Often 'manipulator' or 'arm'
+acceleration_filter_planning_group_name: ARM_1  # Often 'manipulator' or 'arm
 is_primary_planning_scene_monitor: false  # The MoveGroup node maintains the planning scene, so Servo needs to get its world info from there.
 
 ## Stopping behaviour
