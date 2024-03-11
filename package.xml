@@ -6,7 +6,7 @@
   <description>
      An automatically generated package with all the configuration and launch files for using the ivr with the MoveIt Motion Planning Framework
   </description>
-  <maintainer email="helloe@picknik.ai">Mike</maintainer>
+  <maintainer email="hello@picknik.ai">Mike</maintainer>
 
   <license>BSD-3-Clause</license>
 
@@ -14,34 +14,24 @@
   <url type="bugtracker">https://github.com/ros-planning/moveit2/issues</url>
   <url type="repository">https://github.com/ros-planning/moveit2</url>
 
-  <author email="helloe@picknik.ai">Mike</author>
+  <author email="hello@picknik.ai">Mike</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <exec_depend>moveit_ros_move_group</exec_depend>
-  <exec_depend>moveit_kinematics</exec_depend>
-  <exec_depend>moveit_planners</exec_depend>
-  <exec_depend>moveit_simple_controller_manager</exec_depend>
-  <exec_depend>joint_state_publisher</exec_depend>
-  <exec_depend>joint_state_publisher_gui</exec_depend>
-  <exec_depend>tf2_ros</exec_depend>
-  <exec_depend>xacro</exec_depend>
-  <!-- The next 2 packages are required for the gazebo simulation.
-       We don't include them by default to prevent installing gazebo and all its dependencies. -->
-  <!-- <exec_depend>joint_trajectory_controller</exec_depend> -->
-  <!-- <exec_depend>gazebo_ros_control</exec_depend> -->
-  <exec_depend>controller_manager</exec_depend>
-  <exec_depend>moveit_configs_utils</exec_depend>
-  <exec_depend>moveit_ros_move_group</exec_depend>
-  <exec_depend>moveit_ros_visualization</exec_depend>
-  <exec_depend>moveit_ros_warehouse</exec_depend>
-  <exec_depend>moveit_setup_assistant</exec_depend>
-  <exec_depend>robot_state_publisher</exec_depend>
-  <exec_depend>rviz2</exec_depend>
-  <exec_depend>rviz_common</exec_depend>
-  <exec_depend>rviz_default_plugins</exec_depend>
-  <exec_depend>tf2_ros</exec_depend>
-  <exec_depend>xacro</exec_depend>
+  <exec_depend>admittance_controller</exec_depend>
+  <exec_depend>kinematics_interface_kdl</exec_depend>
+  <exec_depend>moveit_planners_stomp</exec_depend>
+  <exec_depend>moveit_ros_perception</exec_depend>
+  <exec_depend>moveit_studio_agent</exec_depend>
+  <exec_depend>moveit_studio_behavior</exec_depend>
+  <exec_depend>moveit_studio_ur_pstop_manager</exec_depend>
+  <exec_depend>picknik_accessories</exec_depend>
+  <exec_depend>realsense2_description</exec_depend>
+  <exec_depend>robotiq_description</exec_depend>
+  <exec_depend>robotiq_controllers</exec_depend>
+  <exec_depend>trac_ik_kinematics_plugin</exec_depend>
+  <exec_depend>ur_description</exec_depend>
+  <exec_depend>ur_robot_driver</exec_depend>
 
 
   <export>

@@ -120,15 +120,15 @@ MOBILE_BASE:
     - PRMstarkConfigDefault
   enforce_constrained_state_space: true
   longest_valid_segment_fraction: 0.01
-WHOLE_BODY:
-  default_planner_config: RRTConnectkConfigDefault
-  planner_configs:
-    - APSConfigDefault
-    - RRTkConfigDefault
-    - RRTConnectkConfigDefault
-    - RRTstarkConfigDefault
-    - TRRTkConfigDefault
-    - PRMkConfigDefault
-    - PRMstarkConfigDefault
-  enforce_constrained_state_space: true
-  longest_valid_segment_fraction: 0.01
+# WHOLE_BODY:
+#   default_planner_config: RRTConnectkConfigDefault
+#   planner_configs:
+#     - APSConfigDefault
+#     - RRTkConfigDefault
+#     - RRTConnectkConfigDefault
+#     - RRTstarkConfigDefault
+#     - TRRTkConfigDefault
+#     - PRMkConfigDefault
+#     - PRMstarkConfigDefault
+#   enforce_constrained_state_space: true
+#   longest_valid_segment_fraction: 0.01

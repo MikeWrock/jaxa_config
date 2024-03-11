@@ -3,13 +3,20 @@ project(jaxa_config)
 
 find_package(ament_cmake REQUIRED)
 
+install(
+  DIRECTORY
+    config
+    description
+    launch
+    objectives
+    waypoints
+  DESTINATION
+    share/${PROJECT_NAME}
+)
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
 ament_package()
-
-install(DIRECTORY launch DESTINATION share/${PROJECT_NAME}
-  PATTERN "setup_assistant.launch" EXCLUDE)
-  install(DIRECTORY config DESTINATION share/${PROJECT_NAME})
-  install(DIRECTORY simulation_worlds DESTINATION share/${PROJECT_NAME})
-
-install(DIRECTORY objectives DESTINATION share/${PROJECT_NAME})
-install(DIRECTORY waypoints DESTINATION share/${PROJECT_NAME})
-install(FILES .setup_assistant DESTINATION share/${PROJECT_NAME})

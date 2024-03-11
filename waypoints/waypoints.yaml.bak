@@ -1,0 +1,623 @@
+- name: Grab
+  description: ""
+  favorite: true
+  joint_group_names:
+    - manipulator
+  joint_state:
+    header:
+      frame_id: world
+      stamp:
+        sec: 0
+        nanosec: 0
+    name: [shoulder_pan_joint, shoulder_lift_joint, elbow_joint, wrist_1_joint, wrist_2_joint, wrist_3_joint]
+    position: [2.7712432925819273, -1.4531914890259676, -1.96615025453015, -1.0617789845470658, 1.5878968566255958, -0.07080028000697597]
+    velocity: []
+    effort: []
+
+
+
+- description: ''
+  favorite: false
+  joint_state:
+    effort: []
+    header:
+      frame_id: world
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM1_JOINT1
+    - ARM1_JOINT2
+    - ARM1_JOINT3
+    - ARM1_JOINT4
+    - ARM1_JOINT5
+    - ARM1_JOINT6
+    - ARM1_JOINT7
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    velocity: []
+  name: ARM_1_ZERO
+- description: ''
+  favorite: false
+  joint_state:
+    effort: []
+    header:
+      frame_id: world
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM1_JOINT1
+    - ARM1_JOINT2
+    - ARM1_JOINT3
+    - ARM1_JOINT4
+    - ARM1_JOINT5
+    - ARM1_JOINT6
+    - ARM1_JOINT7
+    position:
+    - -0.05711986642890497
+    - -0.8307768000000001
+    - 0
+    - 1.397215527272727
+    - 0
+    - -0.5853200181818183
+    - 0
+    velocity: []
+  name: ARM_1_BENT
+- description: ''
+  favorite: false
+  joint_state:
+    effort: []
+    header:
+      frame_id: world
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM2_JOINT1
+    - ARM2_JOINT2
+    - ARM2_JOINT3
+    - ARM2_JOINT4
+    - ARM2_JOINT5
+    - ARM2_JOINT6
+    - ARM2_JOINT7
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    velocity: []
+  name: ARM_2_ZERO
+- description: ''
+  favorite: false
+  joint_state:
+    effort: []
+    header:
+      frame_id: world
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM2_JOINT1
+    - ARM2_JOINT2
+    - ARM2_JOINT3
+    - ARM2_JOINT4
+    - ARM2_JOINT5
+    - ARM2_JOINT6
+    - ARM2_JOINT7
+    position:
+    - -0.05711986642890497
+    - -0.8307768000000001
+    - 0
+    - 1.397215527272727
+    - 0
+    - -0.5853200181818183
+    - 0
+    velocity: []
+  name: ARM_2_BENT
+- description: ''
+  favorite: false
+  joint_state:
+    effort: []
+    header:
+      frame_id: world
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM3_JOINT1
+    - ARM3_JOINT2
+    - ARM3_JOINT3
+    - ARM3_JOINT4
+    - ARM3_JOINT5
+    - ARM3_JOINT6
+    - ARM3_JOINT7
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    velocity: []
+  name: ARM_3_ZERO
+- description: ''
+  favorite: false
+  joint_state:
+    effort: []
+    header:
+      frame_id: world
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM3_JOINT1
+    - ARM3_JOINT2
+    - ARM3_JOINT3
+    - ARM3_JOINT4
+    - ARM3_JOINT5
+    - ARM3_JOINT6
+    - ARM3_JOINT7
+    position:
+    - -0.05711986642890497
+    - -0.8307768000000001
+    - 0
+    - 1.397215527272727
+    - 0
+    - -0.5853200181818183
+    - 0
+    velocity: []
+  name: ARM_3_BENT
+- description: ''
+  favorite: false
+  joint_state:
+    effort: []
+    header:
+      frame_id: world
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM4_JOINT1
+    - ARM4_JOINT2
+    - ARM4_JOINT3
+    - ARM4_JOINT4
+    - ARM4_JOINT5
+    - ARM4_JOINT6
+    - ARM4_JOINT7
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    velocity: []
+  name: ARM_4_ZERO
+- description: ''
+  favorite: false
+  joint_state:
+    effort: []
+    header:
+      frame_id: world
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM4_JOINT1
+    - ARM4_JOINT2
+    - ARM4_JOINT3
+    - ARM4_JOINT4
+    - ARM4_JOINT5
+    - ARM4_JOINT6
+    - ARM4_JOINT7
+    position:
+    - -0.05711986642890497
+    - -0.8307768000000001
+    - 0
+    - 1.397215527272727
+    - 0
+    - -0.5853200181818183
+    - 0
+    velocity: []
+  name: ARM_4_BENT
+
+- description: ''
+  favorite: false
+  joint_state:
+    effort: []
+    header:
+      frame_id: world
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM1_JOINT1
+    - ARM1_JOINT2
+    - ARM1_JOINT3
+    - ARM1_JOINT4
+    - ARM1_JOINT5
+    - ARM1_JOINT6
+    - ARM1_JOINT7
+    - ARM2_JOINT1
+    - ARM2_JOINT2
+    - ARM2_JOINT3
+    - ARM2_JOINT4
+    - ARM2_JOINT5
+    - ARM2_JOINT6
+    - ARM2_JOINT7
+    - ARM3_JOINT1
+    - ARM3_JOINT2
+    - ARM3_JOINT3
+    - ARM3_JOINT4
+    - ARM3_JOINT5
+    - ARM3_JOINT6
+    - ARM3_JOINT7
+    - ARM4_JOINT1
+    - ARM4_JOINT2
+    - ARM4_JOINT3
+    - ARM4_JOINT4
+    - ARM4_JOINT5
+    - ARM4_JOINT6
+    - ARM4_JOINT7
+    position:
+    - -0.05711986642890497
+    - -0.8307768000000001
+    - 0
+    - 1.397215527272727
+    - 0
+    - -0.5853200181818183
+    - 0
+    - -0.05711986642890497
+    - -0.8307768000000001
+    - 0
+    - 1.397215527272727
+    - 0
+    - -0.5853200181818183
+    - 0
+    - -0.05711986642890497
+    - -0.8307768000000001
+    - 0
+    - 1.397215527272727
+    - 0
+    - -0.5853200181818183
+    - 0
+    - -0.05711986642890497
+    - -0.8307768000000001
+    - 0
+    - 1.397215527272727
+    - 0
+    - -0.5853200181818183
+    - 0
+    velocity: []
+  joint_group_names:
+  - MULTI_ARM
+  name: ALL_BENT
+
+- description: ''
+  favorite: false
+  joint_state:
+    effort: []
+    header:
+      frame_id: world
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM1_JOINT1
+    - ARM1_JOINT2
+    - ARM1_JOINT3
+    - ARM1_JOINT4
+    - ARM1_JOINT5
+    - ARM1_JOINT6
+    - ARM1_JOINT7
+    - ARM2_JOINT1
+    - ARM2_JOINT2
+    - ARM2_JOINT3
+    - ARM2_JOINT4
+    - ARM2_JOINT5
+    - ARM2_JOINT6
+    - ARM2_JOINT7
+    - ARM3_JOINT1
+    - ARM3_JOINT2
+    - ARM3_JOINT3
+    - ARM3_JOINT4
+    - ARM3_JOINT5
+    - ARM3_JOINT6
+    - ARM3_JOINT7
+    - ARM4_JOINT1
+    - ARM4_JOINT2
+    - ARM4_JOINT3
+    - ARM4_JOINT4
+    - ARM4_JOINT5
+    - ARM4_JOINT6
+    - ARM4_JOINT7
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    velocity: []
+  joint_group_names:
+  - MULTI_ARM
+  name: ALL_ZERO
+
+
+
+- description: ''
+  favorite: true
+  joint_state:
+    effort: []
+    header:
+      frame_id: world
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM1_JOINT1
+    - ARM1_JOINT2
+    - ARM1_JOINT3
+    - ARM1_JOINT4
+    - ARM1_JOINT5
+    - ARM1_JOINT6
+    - ARM1_JOINT7
+    - ARM2_JOINT1
+    - ARM2_JOINT2
+    - ARM2_JOINT3
+    - ARM2_JOINT4
+    - ARM2_JOINT5
+    - ARM2_JOINT6
+    - ARM2_JOINT7
+    - ARM3_JOINT1
+    - ARM3_JOINT2
+    - ARM3_JOINT3
+    - ARM3_JOINT4
+    - ARM3_JOINT5
+    - ARM3_JOINT6
+    - ARM3_JOINT7
+    - ARM4_JOINT1
+    - ARM4_JOINT2
+    - ARM4_JOINT3
+    - ARM4_JOINT4
+    - ARM4_JOINT5
+    - ARM4_JOINT6
+    - ARM4_JOINT7
+    - BODY_JOINT_X
+    - BODY_JOINT_Y
+    - BODY_JOINT_Z
+    - BODY_JOINT_ROLL
+    - BODY_JOINT_PITCH
+    - BODY_JOINT_YAW
+    position:
+    - 0
+    - -1.2461651999999996
+    - 0
+    - 1.5671471454545454
+    - 0
+    - 1.4349781090909088
+    - 0
+    - 0
+    - -1.2461651999999996
+    - 0
+    - 1.5671471454545454
+    - 0
+    - 1.4349781090909088
+    - 0
+    - 0
+    - -1.2461651999999996
+    - 0
+    - 1.5671471454545454
+    - 0
+    - 1.4349781090909088
+    - 0
+    - 0
+    - -1.2461651999999996
+    - 0
+    - 1.5671471454545454
+    - 0
+    - 1.4349781090909088
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    velocity: []
+  joint_group_names:
+  - WHOLE_BODY
+  name: TUCK
+- description: ''
+  favorite: true
+  joint_state:
+    effort: []
+    header:
+      frame_id: world
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM1_JOINT1
+    - ARM1_JOINT2
+    - ARM1_JOINT3
+    - ARM1_JOINT4
+    - ARM1_JOINT5
+    - ARM1_JOINT6
+    - ARM1_JOINT7
+    - ARM2_JOINT1
+    - ARM2_JOINT2
+    - ARM2_JOINT3
+    - ARM2_JOINT4
+    - ARM2_JOINT5
+    - ARM2_JOINT6
+    - ARM2_JOINT7
+    - ARM3_JOINT1
+    - ARM3_JOINT2
+    - ARM3_JOINT3
+    - ARM3_JOINT4
+    - ARM3_JOINT5
+    - ARM3_JOINT6
+    - ARM3_JOINT7
+    - ARM4_JOINT1
+    - ARM4_JOINT2
+    - ARM4_JOINT3
+    - ARM4_JOINT4
+    - ARM4_JOINT5
+    - ARM4_JOINT6
+    - ARM4_JOINT7
+    - BODY_JOINT_X
+    - BODY_JOINT_Y
+    - BODY_JOINT_Z
+    - BODY_JOINT_ROLL
+    - BODY_JOINT_PITCH
+    - BODY_JOINT_YAW
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    velocity: []
+  joint_group_names:
+  - WHOLE_BODY
+  name: SPREAD
+- description: ''
+  favorite: true
+  joint_state:
+    effort: []
+    header:
+      frame_id: world
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM1_JOINT1
+    - ARM1_JOINT2
+    - ARM1_JOINT3
+    - ARM1_JOINT4
+    - ARM1_JOINT5
+    - ARM1_JOINT6
+    - ARM1_JOINT7
+    - ARM2_JOINT1
+    - ARM2_JOINT2
+    - ARM2_JOINT3
+    - ARM2_JOINT4
+    - ARM2_JOINT5
+    - ARM2_JOINT6
+    - ARM2_JOINT7
+    - ARM3_JOINT1
+    - ARM3_JOINT2
+    - ARM3_JOINT3
+    - ARM3_JOINT4
+    - ARM3_JOINT5
+    - ARM3_JOINT6
+    - ARM3_JOINT7
+    - ARM4_JOINT1
+    - ARM4_JOINT2
+    - ARM4_JOINT3
+    - ARM4_JOINT4
+    - ARM4_JOINT5
+    - ARM4_JOINT6
+    - ARM4_JOINT7
+    - BODY_JOINT_X
+    - BODY_JOINT_Y
+    - BODY_JOINT_Z
+    - BODY_JOINT_ROLL
+    - BODY_JOINT_PITCH
+    - BODY_JOINT_YAW
+    position:
+    - 0
+    - 1.4916219818181813
+    - 0
+    - 0.47203227272727255
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1.4916219818181813
+    - 0
+    - 0.47203227272727255
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1.4916219818181813
+    - 0
+    - 0.47203227272727255
+    - 0
+    - 0
+    - 0
+    - 1.4916219818181813
+    - 0
+    - 0.47203227272727255
+    - 0
+    - 0
+    - 0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    velocity: []
+  joint_group_names:
+  - WHOLE_BODY
+  name: GLIDE

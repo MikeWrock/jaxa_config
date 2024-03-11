@@ -4,9 +4,9 @@
   <BehaviorTree ID="Wiggle" _description="" _favorite="false" _hardcoded="false">
     <Decorator ID="KeepRunningUntilFailure">
       <Control ID="Sequence" name="TopLevelSequence">
-        <Action ID="MoveToWaypoint" waypoint_name="TUCK" planning_group_name="WHOLE_BODY" controller_names="WHOLE_BODY_controller" use_all_planners="false" constraints=""/>
-        <Action ID="MoveToWaypoint" waypoint_name="SPREAD" planning_group_name="WHOLE_BODY" controller_names="WHOLE_BODY_controller" use_all_planners="false" constraints=""/>
-        <Action ID="MoveToWaypoint" waypoint_name="GLIDE" planning_group_name="WHOLE_BODY" controller_names="WHOLE_BODY_controller" use_all_planners="false" constraints=""/>
+        <Action ID="MoveToWaypoint" waypoint_name="TUCK" planning_group_name="WHOLE_BODY" controller_names="WHOLE_BODY_controller" use_all_planners="false"/>
+        <Action ID="MoveToWaypoint" waypoint_name="SPREAD" planning_group_name="WHOLE_BODY" controller_names="WHOLE_BODY_controller" use_all_planners="false"/>
+        <Action ID="MoveToWaypoint" waypoint_name="GLIDE" planning_group_name="WHOLE_BODY" controller_names="WHOLE_BODY_controller" use_all_planners="false"/>
       </Control>
     </Decorator>
   </BehaviorTree>
