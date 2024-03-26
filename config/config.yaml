@@ -161,7 +161,7 @@ moveit_params:
 ui_params:
   # By default, we use a frame named "grasp_link" for tool grasp pose rendering and planning.
   # [Required]
-  servo_endpoint_frame_id: "grasp_link_1"
+  servo_endpoint_frame_id: "grasp_link"
 
 # Configuration for launching ros2_control processes.
 # [Required, if using ros2_control]

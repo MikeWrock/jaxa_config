@@ -1066,13 +1066,13 @@
   </link>
   <joint name="ARM1_GRASP" type="fixed">
     <parent link="ARM1_TOOLFRAME"/>
-    <child link="grasp_link_1"/>
+    <child link="grasp_link"/>
     <origin rpy="0 0 0" xyz="0 0 0"/>
   </joint>
-  <link name="grasp_link_1">
+  <link name="grasp_link">
   </link>
   <joint name="ARM1_GRIPPER" type="revolute">
-    <parent link="grasp_link_1"/>
+    <parent link="grasp_link"/>
     <child link="gripper_1"/>
     <origin rpy="0 0 0" xyz="0 0 0"/>
     <axis xyz="0 0 1"/>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root BTCPP_format="4" main_tree_to_execute="Move two arms">
+  <!-- ////////// -->
+  <BehaviorTree ID="Move two arms" _description="" _favorite="false" _hardcoded="false">
+    <Control ID="Sequence" name="TopLevelSequence">
+      <Action ID="InitializeMTCTask" task_id="" controller_names="/ARM_1_controller" task="{mtc_task}"/>
+      <Action ID="SetupMTCCurrentState" task="{mtc_task}"/>
+      <Action ID="CreateStampedPose" reference_frame="world" position_xyz="-0.987;0.000;-0.091" orientation_xyzw="-0.122;0.000;0.992;0.000" stamped_pose="{grasp_pose}"/>
+      <Action ID="MoveTwoArms" task="{mtc_task}" grasp_pose="{grasp_pose}" arm_group_name="ARM_1" end_effector_group_name="gripper" end_effector_name="ARM_1_ee" hand_frame_name="grasp_link" />
+      <Action ID="PlanMTCTask" task="{mtc_task}" solution="{mtc_solution}"/>
+      <Action ID="ExecuteMTCTask" solution="{mtc_solution}"/>
+    </Control>
+  </BehaviorTree>
+</root>
