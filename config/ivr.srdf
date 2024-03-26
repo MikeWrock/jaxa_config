@@ -14,13 +14,13 @@
         <link name="gripper_1"/>
         <joint name="ARM1_GRIPPER"/>
     </group>    
-    <!-- <group name="WHOLE_BODY">
+    <group name="WHOLE_BODY">
         <group name="ARM_1" />
         <group name="ARM_2" />
         <group name="ARM_3" />
         <group name="ARM_4" />
         <group name="MOBILE_BASE" />
-    </group>   -->
+    </group>  
     <group name="MULTI_ARM">
         <group name="ARM_1" />
         <group name="ARM_2" />

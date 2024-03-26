@@ -17,34 +17,19 @@
             </Decorator>
             <!-- Joint sliders interpolate to joint state -->
             <Decorator ID="ForceSuccess" _while="teleop_mode == 5">
-<Control ID="Sequence">
-                <Action ID="SwitchUIPrimaryView" primary_view_name="Visualization"/>
               <SubTree ID="Interpolate to Joint State"/>
-</Control>
             </Decorator>
             <!-- Interactive markers move to pose -->
             <Decorator ID="ForceSuccess" _while="teleop_mode == 4">
-<Control ID="Sequence">
-                <Action ID="SwitchUIPrimaryView" primary_view_name="Visualization"/>
               <SubTree ID="Move to Pose"/>
-</Control>
             </Decorator>
             <!-- Waypoint buttons move to joint state -->
             <Decorator ID="ForceSuccess" _while="teleop_mode == 3">
-<Control ID="Sequence">
-                <Action ID="SwitchUIPrimaryView" primary_view_name="Visualization"/>
               <SubTree ID="Move to Joint State"/>
-</Control>
             </Decorator>
             <!-- Cartesian and joint jogging -->
-            <Control ID="Sequence" _while="teleop_mode == 2">
-              <Action ID="SwitchUIPrimaryView" primary_view_name="Visualization"/>
-              <Action ID="TeleoperateTwist" controller_name="servo_controller"/>
-            </Control>
-            <Control ID="Sequence" _while="teleop_mode == 1">
-              <Action ID="SwitchUIPrimaryView" primary_view_name="Visualization"/>
-            <Action ID="TeleoperateJointJog" controller_name="servo_controller"/>
-            </Control>
+            <Action ID="TeleoperateTwist" controller_name="/ARM_1_controller" _while="teleop_mode == 2"/>
+            <Action ID="TeleoperateJointJog" controller_name="/ARM_1_controller"  _while="teleop_mode == 1"/>
           </Control>
         </Decorator>
       </Control>
