@@ -179,7 +179,7 @@ ros2_control:
   # [Optional, default=[]]
   controllers_inactive_at_startup:
     - "gripper_controller"
-    - "ARM_1_controller"
+    - "servo_controller"
     - "ARM_2_controller"
     - "ARM_3_controller"
     - "ARM_4_controller"
@@ -208,9 +208,9 @@ objectives:
     # Add additional plugin loaders as needed.
     core:
       - "moveit_studio::behaviors::CoreBehaviorsLoader"
-      # - "moveit_studio::behaviors::MTCCoreBehaviorsLoader"
-      # - "moveit_studio::behaviors::ServoBehaviorsLoader"
-      # - "moveit_studio::behaviors::VisionBehaviorsLoader"
+      - "moveit_studio::behaviors::MTCCoreBehaviorsLoader"
+      - "moveit_studio::behaviors::ServoBehaviorsLoader"
+      - "moveit_studio::behaviors::VisionBehaviorsLoader"
   # Specify source folder for objectives
   # [Required]
   objective_library_paths:

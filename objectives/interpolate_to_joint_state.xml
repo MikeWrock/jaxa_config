@@ -4,7 +4,7 @@
     <Control ID="Fallback" name="root">
       <Control ID="Sequence">
         <Action ID="RetrieveJointStateParameter" timeout_sec="-1" joint_state="{target_joint_state}"/>
-        <Action ID="InitializeMTCTask" task_id="interpolate_to_joint_state" controller_names="/ARM_1_controller /ARM_2_controller /ARM_3_controller /ARM_4_controller /MOBILE_BASE_controller" task="{interpolate_to_waypoint_task}"/>
+        <Action ID="InitializeMTCTask" task_id="interpolate_to_joint_state" controller_names="/servo_controller /ARM_2_controller /ARM_3_controller /ARM_4_controller /MOBILE_BASE_controller" task="{interpolate_to_waypoint_task}"/>
         <Action ID="SetupMTCCurrentState" task="{interpolate_to_waypoint_task}"/>
         <Control ID="Sequence">
           <Action ID="SetupMTCInterpolateToJointState" joint_state="{target_joint_state}" name="SetupMTCInterpolateToJointState_Arm1" planning_group_name="ARM_1" task="{interpolate_to_waypoint_task}"/>

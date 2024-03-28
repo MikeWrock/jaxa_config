@@ -7,7 +7,7 @@ controller_manager:
       type: joint_trajectory_controller/JointTrajectoryController
     MOBILE_BASE_controller:
       type: joint_trajectory_controller/JointTrajectoryController
-    ARM_1_controller:
+    servo_controller:
       type: joint_trajectory_controller/JointTrajectoryController
     ARM_2_controller:
       type: joint_trajectory_controller/JointTrajectoryController
@@ -91,7 +91,7 @@ gripper_controller:
       - position
       - velocity
 
-ARM_1_controller:
+servo_controller:
   ros__parameters:
     joints:
       - ARM1_JOINT1
