@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <root BTCPP_format="4" main_tree_to_execute="Move One Arm">
   <!-- ////////// -->
-  <BehaviorTree ID="Move One Arm" _description="" _favorite="true" _hardcoded="false">
+  <BehaviorTree ID="Move One Arm" _description="" _favorite="false" _hardcoded="false">
     <Control ID="Sequence" name="TopLevelSequence">
       <Action ID="InitializeMTCTask" task_id="" controller_names="/servo_controller" task="{mtc_task}"/>
       <Action ID="SetupMTCCurrentState" task="{mtc_task}"/>

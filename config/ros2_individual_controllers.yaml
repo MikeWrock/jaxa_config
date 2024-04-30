@@ -94,6 +94,13 @@ gripper_controller:
 servo_controller:
   ros__parameters:
     joints:
+      - BODY_JOINT_X
+      - BODY_JOINT_Y
+      - BODY_JOINT_Z
+      - BODY_JOINT_YAW
+      - BODY_JOINT_PITCH
+      - BODY_JOINT_ROLL
+      - ARM1_GRIPPER
       - ARM1_JOINT1
       - ARM1_JOINT2
       - ARM1_JOINT3
@@ -101,6 +108,28 @@ servo_controller:
       - ARM1_JOINT5
       - ARM1_JOINT6
       - ARM1_JOINT7
+      - ARM2_JOINT1
+      - ARM2_JOINT2
+      - ARM2_JOINT3
+      - ARM2_JOINT4
+      - ARM2_JOINT5
+      - ARM2_JOINT6
+      - ARM2_JOINT7
+      - ARM3_JOINT1
+      - ARM3_JOINT2
+      - ARM3_JOINT3
+      - ARM3_JOINT4
+      - ARM3_JOINT5
+      - ARM3_JOINT6
+      - ARM3_JOINT7
+      - ARM4_JOINT1
+      - ARM4_JOINT2
+      - ARM4_JOINT3
+      - ARM4_JOINT4
+      - ARM4_JOINT5
+      - ARM4_JOINT6
+      - ARM4_JOINT7
+    allow_partial_joints_goal: true
     command_interfaces:
       - position
     state_interfaces:

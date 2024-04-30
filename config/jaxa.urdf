@@ -1073,12 +1073,12 @@
   </link>
   <joint name="ARM1_GRIPPER" type="revolute">
     <parent link="grasp_link"/>
-    <child link="gripper_1"/>
+    <child link="gripper"/>
     <origin rpy="0 0 0" xyz="0 0 0"/>
     <axis xyz="0 0 1"/>
     <limit effort="78.4" lower="-6.283185307179586" upper="6.283185307179586" velocity="2.4543692606170255"/>
   </joint>
-  <link name="gripper_1">
+  <link name="gripper">
   </link>
   <material name="yellow_ARM2">
     <color rgba="1.0 1.0 0.0 1.0"/>

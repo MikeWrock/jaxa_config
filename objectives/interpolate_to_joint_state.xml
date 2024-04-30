@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <root BTCPP_format="4" main_tree_to_execute="Interpolate to Joint State">
   <BehaviorTree ID="Interpolate to Joint State" _description="Move to a specified joint state using joint interpolation">
     <Control ID="Fallback" name="root">
@@ -7,11 +7,7 @@
         <Action ID="InitializeMTCTask" task_id="interpolate_to_joint_state" controller_names="/servo_controller /ARM_2_controller /ARM_3_controller /ARM_4_controller /MOBILE_BASE_controller" task="{interpolate_to_waypoint_task}"/>
         <Action ID="SetupMTCCurrentState" task="{interpolate_to_waypoint_task}"/>
         <Control ID="Sequence">
-          <Action ID="SetupMTCInterpolateToJointState" joint_state="{target_joint_state}" name="SetupMTCInterpolateToJointState_Arm1" planning_group_name="ARM_1" task="{interpolate_to_waypoint_task}"/>
-          <Action ID="SetupMTCInterpolateToJointState" joint_state="{target_joint_state}" name="SetupMTCInterpolateToJointState_Arm2" planning_group_name="ARM_2" task="{interpolate_to_waypoint_task}"/>
-          <Action ID="SetupMTCInterpolateToJointState" joint_state="{target_joint_state}" name="SetupMTCInterpolateToJointState_Arm3" planning_group_name="ARM_3" task="{interpolate_to_waypoint_task}"/>
-          <Action ID="SetupMTCInterpolateToJointState" joint_state="{target_joint_state}" name="SetupMTCInterpolateToJointState_Arm4" planning_group_name="ARM_4" task="{interpolate_to_waypoint_task}"/>
-          <Action ID="SetupMTCInterpolateToJointState" joint_state="{target_joint_state}" name="SetupMTCInterpolateToJointState_Arm4" planning_group_name="MOBILE_BASE" task="{interpolate_to_waypoint_task}"/>
+          <Action ID="SetupMTCInterpolateToJointState" joint_state="{target_joint_state}" name="SetupMTCInterpolateToJointState_Arm1" planning_group_name="WHOLE_BODY" task="{interpolate_to_waypoint_task}"/>
         </Control>
         <Action ID="PlanMTCTask" solution="{interpolate_to_waypoint_solution}" task="{interpolate_to_waypoint_task}"/>
         <Action ID="ExecuteMTCTask" solution="{interpolate_to_waypoint_solution}"/>

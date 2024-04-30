@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root BTCPP_format="4" main_tree_to_execute="Motion Test">
+  <!--//////////-->
+  <BehaviorTree ID="Motion Test" _description="" _favorite="true" _hardcoded="false">
+    <Control ID="Sequence" name="TopLevelSequence">
+      <Action ID="InitializeMTCTask" task="{mtc_task}" controller_names="/servo_controller"/>
+      <Action ID="SetupMTCCurrentState" task="{mtc_task}"/>
+      <Action ID="RetrieveWaypoint" waypoint_joint_state="{target_joint_state}" waypoint_name="Home" joint_group_name="WHOLE_BODY"/>
+      <Action ID="SetupMTCMoveToJointState" task="{mtc_task}" use_all_planners="false" joint_state="{target_joint_state}" planning_group_name="WHOLE_BODY"/>
+      <Action ID="RetrieveWaypoint" waypoint_joint_state="{target_joint_state}" waypoint_name="Touching Arm1" joint_group_name="ARM_1"/>
+      <Action ID="SetupMTCMoveToJointState" task="{mtc_task}" use_all_planners="false" joint_state="{target_joint_state}" planning_group_name="WHOLE_BODY"/>
+      <Action ID="RetrieveWaypoint" waypoint_joint_state="{target_joint_state}" waypoint_name="Home" joint_group_name="WHOLE_BODY"/>
+      <Action ID="SetupMTCMoveToJointState" task="{mtc_task}" use_all_planners="false" joint_state="{target_joint_state}" planning_group_name="WHOLE_BODY"/>
+      <Action ID="RetrieveWaypoint" waypoint_joint_state="{target_joint_state}" waypoint_name="Touching 2" joint_group_name="ARM_2"/>
+      <Action ID="SetupMTCMoveToJointState" task="{mtc_task}" use_all_planners="false" joint_state="{target_joint_state}" planning_group_name="WHOLE_BODY"/>
+      <Action ID="RetrieveWaypoint" waypoint_joint_state="{target_joint_state}" waypoint_name="Home" joint_group_name="WHOLE_BODY"/>
+      <Action ID="SetupMTCMoveToJointState" task="{mtc_task}" use_all_planners="false" joint_state="{target_joint_state}" planning_group_name="WHOLE_BODY"/>
+      <Action ID="RetrieveWaypoint" waypoint_joint_state="{target_joint_state}" waypoint_name="34 touch" joint_group_name="WHOLE_BODY"/>
+      <Action ID="SetupMTCMoveToJointState" task="{mtc_task}" use_all_planners="false" joint_state="{target_joint_state}" planning_group_name="WHOLE_BODY"/>
+      <Action ID="RetrieveWaypoint" waypoint_joint_state="{target_joint_state}" waypoint_name="Home" joint_group_name="WHOLE_BODY"/>
+      <Action ID="SetupMTCMoveToJointState" task="{mtc_task}" use_all_planners="false" joint_state="{target_joint_state}" planning_group_name="WHOLE_BODY"/>
+      <Action ID="RetrieveWaypoint" waypoint_joint_state="{target_joint_state}" waypoint_name="12 touch" joint_group_name="WHOLE_BODY"/>
+      <Action ID="SetupMTCMoveToJointState" task="{mtc_task}" use_all_planners="false" joint_state="{target_joint_state}" planning_group_name="WHOLE_BODY"/>
+      <Action ID="RetrieveWaypoint" waypoint_joint_state="{target_joint_state}" waypoint_name="flip" joint_group_name="WHOLE_BODY"/>
+      <Action ID="SetupMTCMoveToJointState" task="{mtc_task}" use_all_planners="false" joint_state="{target_joint_state}" planning_group_name="WHOLE_BODY"/>
+      <Action ID="PlanMTCTask" solution="{mtc_solution}" task="{mtc_task}"/>
+      <Action ID="ExecuteMTCTask" solution="{mtc_solution}"/>
+      <Action ID="InitializeMTCTask" task="{mtc_task2}" controller_names="/servo_controller"/>
+      <Action ID="SetupMTCCurrentState" task="{mtc_task2}"/>
+      <Action ID="RetrieveWaypoint" waypoint_joint_state="{target_joint_state}" waypoint_name="Home" joint_group_name="WHOLE_BODY"/>
+      <Action ID="SetupMTCMoveToJointState" task="{mtc_task2}" use_all_planners="false" joint_state="{target_joint_state}" planning_group_name="WHOLE_BODY"/>
+      <Action ID="PlanMTCTask" solution="{mtc_solution2}" task="{mtc_task2}"/>
+      <Action ID="WaitForUserTrajectoryApproval" solution="{mtc_solution2}"/>
+      <Action ID="ExecuteMTCTask" solution="{mtc_solution2}"/>
+    </Control>
+  </BehaviorTree>
+</root>
