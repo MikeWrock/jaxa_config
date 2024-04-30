@@ -11,7 +11,7 @@
     <!--SUBGROUPS: Groups can also be formed by referencing to already defined group names-->
     <group name="gripper">        
         <link name="grasp_link"/>
-        <link name="gripper_1"/>
+        <link name="gripper"/>
         <joint name="ARM1_GRIPPER"/>
     </group>    
     <group name="WHOLE_BODY">
@@ -41,6 +41,9 @@
     </group>
     <group name="ARM_4">
         <chain base_link="BODY" tip_link="grasp_link_4"/>
+    </group>    
+    <group name="manipulator">
+        <chain base_link="base_link" tip_link="grasp_link"/>
     </group>
     <end_effector name="ARM_1_ee" parent_link="grasp_link" group="gripper"/>
     <!--GROUP STATES: Purpose: Define a named state for a particular group, in terms of joint values. This is useful to define states like 'folded arms'-->

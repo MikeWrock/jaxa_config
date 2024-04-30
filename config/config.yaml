@@ -111,7 +111,7 @@ optional_feature_params:
 # [Required]
 moveit_params:
   # Used by the Waypoint Manager to save joint states from this joint group.
-  joint_group_name: "ARM_2"
+  joint_group_name: "WHOLE_BODY"
 
   ompl_planning:
     package: "jaxa_config"
@@ -124,7 +124,7 @@ moveit_params:
     path: "config/moveit/pilz_industrial_motion_planner_planning.yaml"
   kinematics:
     package: "jaxa_config"
-    path: "config/kinematics.yaml"
+    path: "config/moveit/trac_ik_kinematics_distance.yaml"
   servo:
     package: "jaxa_config"
     path: "config/moveit/ivr_servo.yaml"
@@ -133,7 +133,7 @@ moveit_params:
     path: "config/moveit/sensors_3d.yaml"
   servo_kinematics:
     package: "jaxa_config"
-    path: "config/kinematics.yaml"
+    path: "config/moveit/trac_ik_kinematics_speed.yaml"
   joint_limits:
     package: "jaxa_config"
     path: "config/joint_limits.yaml"
@@ -179,7 +179,7 @@ ros2_control:
   # [Optional, default=[]]
   controllers_inactive_at_startup:
     - "gripper_controller"
-    - "ARM_1_controller"
+    - "servo_controller"
     - "ARM_2_controller"
     - "ARM_3_controller"
     - "ARM_4_controller"
@@ -208,9 +208,9 @@ objectives:
     # Add additional plugin loaders as needed.
     core:
       - "moveit_studio::behaviors::CoreBehaviorsLoader"
-      # - "moveit_studio::behaviors::MTCCoreBehaviorsLoader"
-      # - "moveit_studio::behaviors::ServoBehaviorsLoader"
-      # - "moveit_studio::behaviors::VisionBehaviorsLoader"
+      - "moveit_studio::behaviors::MTCCoreBehaviorsLoader"
+      - "moveit_studio::behaviors::ServoBehaviorsLoader"
+      - "moveit_studio::behaviors::VisionBehaviorsLoader"
   # Specify source folder for objectives
   # [Required]
   objective_library_paths:

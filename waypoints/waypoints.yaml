@@ -1,1 +1,484 @@
-[]
+- description: ''
+  favorite: false
+  joint_group_names:
+  - ARM_1
+  - ARM_2
+  - ARM_3
+  - ARM_4
+  - MOBILE_BASE
+  - MULTI_ARM
+  - WHOLE_BODY
+  - gripper
+  joint_state:
+    effort: []
+    header:
+      frame_id: ''
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM1_JOINT1
+    - ARM1_JOINT2
+    - ARM1_JOINT3
+    - ARM1_JOINT4
+    - ARM1_JOINT5
+    - ARM1_JOINT6
+    - ARM1_JOINT7
+    - ARM2_JOINT1
+    - ARM2_JOINT2
+    - ARM2_JOINT3
+    - ARM2_JOINT4
+    - ARM2_JOINT5
+    - ARM2_JOINT6
+    - ARM2_JOINT7
+    - ARM3_JOINT1
+    - ARM3_JOINT2
+    - ARM3_JOINT3
+    - ARM3_JOINT4
+    - ARM3_JOINT5
+    - ARM3_JOINT6
+    - ARM3_JOINT7
+    - ARM4_JOINT1
+    - ARM4_JOINT2
+    - ARM4_JOINT3
+    - ARM4_JOINT4
+    - ARM4_JOINT5
+    - ARM4_JOINT6
+    - ARM4_JOINT7
+    - BODY_JOINT_X
+    - BODY_JOINT_Y
+    - BODY_JOINT_Z
+    - BODY_JOINT_YAW
+    - BODY_JOINT_PITCH
+    - BODY_JOINT_ROLL
+    - ARM1_GRIPPER
+    position:
+    - -0.00011157633848488333
+    - 1.019635075467827
+    - 0.00018656865544617178
+    - 1.2083792693039597
+    - 0.00014064053799957039
+    - -0.0001280354341492057
+    - 2.858230285346509e-05
+    - 8.287746817804872e-05
+    - 1.0384358818846324
+    - -9.333966593258083e-05
+    - 1.0950341146741625
+    - 2.7348065236583357e-05
+    - 9.773298110812903e-05
+    - -7.397380652837455e-05
+    - -4.768090387806298e-05
+    - 0.024609234076894557
+    - -0.00020884348209947347
+    - -6.448289453983307e-05
+    - 0.00010328599358908834
+    - 0.00019763837954960765
+    - -9.295520186424256e-05
+    - -3.5925430105999135e-05
+    - 0.00017639985876157882
+    - -0.0001294789668638259
+    - -7.256313781253996e-05
+    - -0.00013570387563668194
+    - 0.00024226363799534736
+    - 9.757445394061508e-05
+    - -3.0378192104399214e-05
+    - 0.0002132464168593288
+    - -3.8168164761737e-05
+    - -6.553965182974934e-05
+    - 3.486568666994573e-05
+    - -3.3788675442338056e-06
+    - 0
+    velocity: []
+  name: 12 touch
+- description: ''
+  favorite: false
+  joint_group_names:
+  - ARM_3
+  joint_state:
+    effort: []
+    header:
+      frame_id: ''
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM3_JOINT1
+    - ARM3_JOINT2
+    - ARM3_JOINT3
+    - ARM3_JOINT4
+    - ARM3_JOINT5
+    - ARM3_JOINT6
+    - ARM3_JOINT7
+    position:
+    - 0
+    - 1.4538593999999998
+    - 0
+    - 1.5105032727272725
+    - 0
+    - 0
+    - 0
+    velocity: []
+  name: T3
+- description: ''
+  favorite: false
+  joint_group_names:
+  - ARM_2
+  joint_state:
+    effort: []
+    header:
+      frame_id: ''
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM2_JOINT1
+    - ARM2_JOINT2
+    - ARM2_JOINT3
+    - ARM2_JOINT4
+    - ARM2_JOINT5
+    - ARM2_JOINT6
+    - ARM2_JOINT7
+    position:
+    - 0
+    - 1.0384709999999997
+    - 0
+    - 1.0951148727272733
+    - 0
+    - 0
+    - 0
+    velocity: []
+  name: Touching 2
+- description: ''
+  favorite: false
+  joint_group_names:
+  - ARM_1
+  - ARM_2
+  - ARM_3
+  - ARM_4
+  - MOBILE_BASE
+  - MULTI_ARM
+  - WHOLE_BODY
+  - gripper
+  joint_state:
+    effort: []
+    header:
+      frame_id: ''
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM1_JOINT1
+    - ARM1_JOINT2
+    - ARM1_JOINT3
+    - ARM1_JOINT4
+    - ARM1_JOINT5
+    - ARM1_JOINT6
+    - ARM1_JOINT7
+    - ARM2_JOINT1
+    - ARM2_JOINT2
+    - ARM2_JOINT3
+    - ARM2_JOINT4
+    - ARM2_JOINT5
+    - ARM2_JOINT6
+    - ARM2_JOINT7
+    - ARM3_JOINT1
+    - ARM3_JOINT2
+    - ARM3_JOINT3
+    - ARM3_JOINT4
+    - ARM3_JOINT5
+    - ARM3_JOINT6
+    - ARM3_JOINT7
+    - ARM4_JOINT1
+    - ARM4_JOINT2
+    - ARM4_JOINT3
+    - ARM4_JOINT4
+    - ARM4_JOINT5
+    - ARM4_JOINT6
+    - ARM4_JOINT7
+    - BODY_JOINT_X
+    - BODY_JOINT_Y
+    - BODY_JOINT_Z
+    - BODY_JOINT_YAW
+    - BODY_JOINT_PITCH
+    - BODY_JOINT_ROLL
+    - ARM1_GRIPPER
+    position:
+    - -3.58895793557167e-05
+    - -6.93329930305481e-05
+    - 8.72914405539632e-05
+    - 6.688822195865213e-05
+    - 4.8721786076203e-05
+    - -3.456811187788845e-06
+    - -9.661070043221117e-05
+    - 9.365259897895158e-05
+    - 6.746368855237958e-06
+    - 2.3611140716820955e-05
+    - 6.724624182097615e-05
+    - 7.910662144422527e-06
+    - -4.2619475442916156e-05
+    - 8.692931649275126e-05
+    - -3.4797791158780456e-05
+    - 0.02447374825036872
+    - -7.911150371655822e-05
+    - -2.5037242053076622e-05
+    - -4.1645751567557455e-05
+    - -4.173015574924648e-05
+    - -7.803857326507522e-07
+    - -4.393484960310161e-05
+    - -2.783353682607413e-05
+    - -7.410176978446543e-05
+    - 4.356555049307645e-05
+    - -4.194636442698538e-05
+    - 6.884991764090957e-05
+    - 8.163618943654001e-05
+    - -5.213538180105388e-05
+    - -1.3220686325803399e-05
+    - 0.5
+    - 1.5993562600093492
+    - 5.091368546709418e-05
+    - 3.141592653589793
+    - 0
+    velocity: []
+  name: flip
+- description: ''
+  favorite: false
+  joint_group_names:
+  - ARM_1
+  joint_state:
+    effort: []
+    header:
+      frame_id: ''
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM1_JOINT1
+    - ARM1_JOINT2
+    - ARM1_JOINT3
+    - ARM1_JOINT4
+    - ARM1_JOINT5
+    - ARM1_JOINT6
+    - ARM1_JOINT7
+    position:
+    - 0
+    - 1.019589709090909
+    - 0
+    - 1.208402618181818
+    - 0
+    - 0
+    - 0
+    velocity: []
+  name: Touching Arm1
+- description: ''
+  favorite: true
+  joint_group_names:
+  - ARM_1
+  - ARM_2
+  - ARM_3
+  - ARM_4
+  - MOBILE_BASE
+  - MULTI_ARM
+  - WHOLE_BODY
+  - gripper
+  joint_state:
+    effort: []
+    header:
+      frame_id: ''
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM1_JOINT1
+    - ARM1_JOINT2
+    - ARM1_JOINT3
+    - ARM1_JOINT4
+    - ARM1_JOINT5
+    - ARM1_JOINT6
+    - ARM1_JOINT7
+    - ARM2_JOINT1
+    - ARM2_JOINT2
+    - ARM2_JOINT3
+    - ARM2_JOINT4
+    - ARM2_JOINT5
+    - ARM2_JOINT6
+    - ARM2_JOINT7
+    - ARM3_JOINT1
+    - ARM3_JOINT2
+    - ARM3_JOINT3
+    - ARM3_JOINT4
+    - ARM3_JOINT5
+    - ARM3_JOINT6
+    - ARM3_JOINT7
+    - ARM4_JOINT1
+    - ARM4_JOINT2
+    - ARM4_JOINT3
+    - ARM4_JOINT4
+    - ARM4_JOINT5
+    - ARM4_JOINT6
+    - ARM4_JOINT7
+    - BODY_JOINT_X
+    - BODY_JOINT_Y
+    - BODY_JOINT_Z
+    - BODY_JOINT_YAW
+    - BODY_JOINT_PITCH
+    - BODY_JOINT_ROLL
+    - ARM1_GRIPPER
+    position:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0.02456103768555235
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    velocity: []
+  name: Home
+- description: ''
+  favorite: false
+  joint_group_names:
+  - ARM_4
+  joint_state:
+    effort: []
+    header:
+      frame_id: ''
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM4_JOINT1
+    - ARM4_JOINT2
+    - ARM4_JOINT3
+    - ARM4_JOINT4
+    - ARM4_JOINT5
+    - ARM4_JOINT6
+    - ARM4_JOINT7
+    position:
+    - 0
+    - -0.26433807272727283
+    - 0
+    - 1.0384709999999997
+    - 0
+    - 1.4916219818181813
+    - 0
+    velocity: []
+  name: t4
+- description: ''
+  favorite: false
+  joint_group_names:
+  - ARM_1
+  - ARM_2
+  - ARM_3
+  - ARM_4
+  - MOBILE_BASE
+  - MULTI_ARM
+  - WHOLE_BODY
+  - gripper
+  joint_state:
+    effort: []
+    header:
+      frame_id: ''
+      stamp:
+        nanosec: 0
+        sec: 0
+    name:
+    - ARM1_JOINT1
+    - ARM1_JOINT2
+    - ARM1_JOINT3
+    - ARM1_JOINT4
+    - ARM1_JOINT5
+    - ARM1_JOINT6
+    - ARM1_JOINT7
+    - ARM2_JOINT1
+    - ARM2_JOINT2
+    - ARM2_JOINT3
+    - ARM2_JOINT4
+    - ARM2_JOINT5
+    - ARM2_JOINT6
+    - ARM2_JOINT7
+    - ARM3_JOINT1
+    - ARM3_JOINT2
+    - ARM3_JOINT3
+    - ARM3_JOINT4
+    - ARM3_JOINT5
+    - ARM3_JOINT6
+    - ARM3_JOINT7
+    - ARM4_JOINT1
+    - ARM4_JOINT2
+    - ARM4_JOINT3
+    - ARM4_JOINT4
+    - ARM4_JOINT5
+    - ARM4_JOINT6
+    - ARM4_JOINT7
+    - BODY_JOINT_X
+    - BODY_JOINT_Y
+    - BODY_JOINT_Z
+    - BODY_JOINT_YAW
+    - BODY_JOINT_PITCH
+    - BODY_JOINT_ROLL
+    - ARM1_GRIPPER
+    position:
+    - -4.6853844216093415e-05
+    - -0.00012513366942293943
+    - 3.560668928548688e-06
+    - 5.2488039806485165e-05
+    - 0.00012183030098676683
+    - 0.00019288394749164577
+    - 0.0002113151887431741
+    - 2.7895193779841053e-05
+    - -3.677607127465307e-05
+    - -6.074293549172581e-05
+    - 6.13029182422906e-05
+    - 4.082867559045553e-05
+    - 2.5984303373843442e-05
+    - 2.0141559606418004e-05
+    - 2.7985296351835125e-05
+    - 1.4538049558119805
+    - 2.4596379324793825e-05
+    - 1.5103666562492504
+    - 1.6864267177879735e-06
+    - -8.126807929947974e-05
+    - 6.844338723458349e-05
+    - 2.34251448418945e-05
+    - -0.2642512581568459
+    - 3.542882069014013e-05
+    - 1.0384032208503724
+    - 9.411642900668085e-05
+    - 1.4915676744603075
+    - -9.376751724630595e-05
+    - 2.9301095707342018e-05
+    - 0.00011168836769647897
+    - 2.91226804256439e-05
+    - -0.00023881852747872472
+    - -0.00012476238030940294
+    - 3.239291547797619e-05
+    - 0
+    velocity: []
+  name: 34 touch
